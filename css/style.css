@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background: #ececec;
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+    color: #000;
+    min-width: 320px;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.sub-menu
+{
+    display: none;
+}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
+.sub-menu:hover
+{
+    display: block;
+    background-color: #fff;
+}
+/*--------------avtopark-section--------------------------------------*/
+.section__header{
+    margin:50px auto;
+    font: 700 28px/42px OpenSansSemiBold,Arial,Helvetica,sans-serif;
+    font-size: 36px;
+}
+.avtopark{
+    background-color: #fff;
+   padding-bottom: 50px;
+}
+.avtopark p{
+    margin-bottom: 10px;
+    font: 700 24px/24px OpenSansSemiBold,Arial,Helvetica,sans-serif;
+}
+.avtopark .avtopark--tarif{
+    color: #242424;
+    font-size: 16px;
+    line-height: 16px;
+}
+.line{
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 15px auto 11px;
+    background: #ffba00;
+}
+.avtopark--pic{
+    max-height:200px;
+}
+/*----------------------advantages-section--------------------------*/
+.advantages{
+    font-size:18px;
+}
+.advantages span{
+    font-weight:600;
+}
+.advantages--pic {
+    height: 100px;
+}
+.first-row{
+    margin-bottom: 50px;
+}
+/*----------------------how-section------------------------*/
+
+/*---------------------review-section----------------------*/
+.carousel-inner img{
+    margin:50px auto;
+    top:20px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.carousel-inner{
+    height: 400px;
+}
+.carousel-caption{
+    color: #000;
+    top: 200px;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+.carousel-indicators li{
+    border: 1px solid rgb(0, 0, 0);
+}
+.client--name{
+    font-size: 18px;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+@media only screen and (max-width : 767px) {
+
+}   
+
+@media only screen and (max-width : 540px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
