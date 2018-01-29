@@ -31,17 +31,29 @@ img{
     font-size: 36px;
 }
 .avtopark{
+    position: relative;
     background-color: #fff;
    padding-bottom: 50px;
 }
+.avtopark-row{
+    margin-bottom: 20px;
+}
 .avtopark p{
     margin-bottom: 10px;
-    font: 700 24px/24px OpenSansSemiBold,Arial,Helvetica,sans-serif;
+    font: 400 14px OpenSansSemiBold,Arial,Helvetica,sans-serif;
+}
+.avtopark span{
+    text-decoration: underline;
 }
 .avtopark .avtopark--tarif{
     color: #242424;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 100;
     line-height: 16px;
+}
+.avtopark--tarif{
+    position: absolute;
+    top: 150px;
 }
 .line{
     display: block;
